@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         }
         button.setOnClickListener {
             CoroutineScope(Main).launch {
-                textView.text = UserManager().getTotalUserCount().toString()
+                textView.text = UserManager2().getTotalUserCount().toString()
 //                download()
             }
         }
